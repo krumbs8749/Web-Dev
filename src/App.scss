@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+    height: 100vh;
+
+    &.active {
+        background-image: url("../public/assets/wave.gif")
+    }
+}
